@@ -7,6 +7,8 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+        <PackageReference Include="Microsoft.Playwright" Version="1.17.2" />
+        <PackageReference Include="SpecFlow.Actions.Playwright" Version="0.1.178" />
         <PackageReference Include="SpecFlow.xUnit" Version="3.9.22" />
         <PackageReference Include="xunit" Version="2.4.1" />
         <PackageReference Include="FluentAssertions" Version="5.10.3" />
@@ -14,6 +16,12 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Source\Source.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="specflow.actions.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>

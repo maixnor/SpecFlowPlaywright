@@ -1,9 +1,16 @@
 Feature: Counter
 	Simple calculator for adding two numbers
 
-@mytag
-Scenario: Add two numbers
-	Given the first number is 50
-	And the second number is 70
-	When the two numbers are added
-	Then the result should be 120
+Scenario: Increase once
+	Given the counter page
+	When the count is increased
+	Then the resulting count should be 1
+	
+Scenario: Increase twice
+	Given the counter page
+	When the count is increased 10 times
+	Then the resulting count should be 10
+
+	
+	
+	

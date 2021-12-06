@@ -1,0 +1,32 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e66b72f_002D5e4f_002D4fbb_002D90cc_002Dd2d39cf4c1ab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculatorFeature" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CalculatorFeature&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CounterFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a9ff07aa_002Dfb2a_002D4d27_002Da188_002D23b5dfade70a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculatorFeature #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CalculatorFeature&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CounterFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dd2fe383_002Dd0d1_002D47ca_002Db155_002D8d8b6e4f69bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculatorFeature #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CalculatorFeature&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CounterFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f83ef688_002D5db3_002D4790_002D977f_002Dd1d2d2cc46f7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculatorFeature #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CalculatorFeature&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CounterFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f93fac5c_002D8fbe_002D4229_002Db945_002D8b66d498748f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add two numbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CalculatorFeature&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::3BFD279E-525E-49D1-8AAC-50BE1CF91F77::net5.0::SpecFlow.Features.CounterFeature&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
