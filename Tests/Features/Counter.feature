@@ -6,7 +6,7 @@ Scenario: Increase once
 	When the count is increased
 	Then the resulting count should be 1
 	
-Scenario: Increase twice
+Scenario: Increase more often
 	Given the counter page
 	When the count is increased 10 times
 	Then the resulting count should be 10

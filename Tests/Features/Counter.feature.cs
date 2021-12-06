@@ -121,14 +121,14 @@ this.ScenarioInitialize(scenarioInfo);
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Increase twice")]
+        [Xunit.SkippableFactAttribute(DisplayName="Increase more often")]
         [Xunit.TraitAttribute("FeatureTitle", "Counter")]
-        [Xunit.TraitAttribute("Description", "Increase twice")]
-        public virtual void IncreaseTwice()
+        [Xunit.TraitAttribute("Description", "Increase more often")]
+        public virtual void IncreaseMoreOften()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Increase twice", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Increase more often", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 9
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
