@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using AngleSharp.Dom;
 using SpecFlow.Actions.Playwright;
 
 namespace SpecFlow.Playwright.Pages
@@ -20,7 +21,7 @@ namespace SpecFlow.Playwright.Pages
 
         public async Task GoTo(string url)
         {
-            await _interactions.GoToUrl(url);
+            await _interactions.GoToUrl(BaseUrl + url);
         }
 
         public async Task<string> GetValueOf(string selector)

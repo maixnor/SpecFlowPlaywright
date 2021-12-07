@@ -6,6 +6,7 @@ namespace SpecFlow.Playwright
 {
     public class BasePage
     {
+        public const string BaseUrl = "http://localhost:5235"; 
         public readonly Task<IPage> _page;
 
         // BrowserDriver resolved automatically

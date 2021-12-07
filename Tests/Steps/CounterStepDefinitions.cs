@@ -20,7 +20,7 @@ namespace SpecFlow.Steps
         [Given(@"the counter page")]
         public async Task GivenTheCounterPage()
         {
-            await _counterPage.GoTo("https://localhost:5001/counter");
+            await _counterPage.GoTo("/counter");
         }
 
         [When(@"the count is increased")]
