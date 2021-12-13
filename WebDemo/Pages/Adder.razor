@@ -1,0 +1,48 @@
+@page "/Adder"
+<h3>Adder</h3>
+
+<EditForm Model="_adding">
+    <p>
+        <label>
+            First Number:
+            <InputNumber @bind-Value="_adding.First">First Number </InputNumber>
+        </label>
+    </p>
+    <p>
+        <label>
+            Second Number:
+            <InputNumber @bind-Value="_adding.Second">Second Number</InputNumber>
+        </label>
+    </p>
+    <button class="btn btn-primary" @onclick="GetResult">Sum it up.</button>
+</EditForm>
+
+<p>The result is:</p>
+<p id="result">@_adding.Result.ToString()</p>
+
+@code {
+
+    private Adding _adding;
+
+    protected override void OnInitialized()
+    {
+        _adding = new();
+    }
+
+    public void GetResult()
+    {
+        _adding.GetSum();
+    }
+
+    public class Adding
+    {
+        public int First { get; set; }
+        public int Second { get; set; }
+        public int Result { get; set; }
+
+        public void GetSum()
+        {
+            Result = First + Second;
+        }
+    }
+}
